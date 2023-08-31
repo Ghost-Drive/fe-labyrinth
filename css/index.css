@@ -1,0 +1,160 @@
+.first,
+.second,
+.third {
+  height: 100%;
+  margin-left: 0;
+  -webkit-transform: translateZ(0);
+}
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #14001c;
+}
+img {
+  position: absolute;
+}
+#wrapper {
+  display: block;
+}
+.mainLogo {
+  z-index: 10;
+  left: 286px;
+  top: 40%;
+  transform: translateY(-50%);
+}
+#portfolio {
+  height: 430px;
+  margin-left: 7475px;
+  margin-top: 178px;
+  position: absolute;
+  width: 755px;
+}
+#portfolio .right {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  margin-top: 194px;
+}
+#portfolio .left {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  margin-top: 194px;
+  margin-left: 703px;
+}
+.work img {
+  margin-left: 13px;
+}
+#portfolio .wrapper {
+  height: 426px;
+  margin-left: 100px;
+  overflow: hidden;
+  padding-left: 17px;
+  padding-top: 21px;
+  position: absolute;
+  width: 543px;
+}
+#portfolio .work {
+  display: inline-block;
+  height: 124px;
+  padding-top: 10px;
+  width: 185px;
+}
+#works {
+  position: absolute;
+  height: 426px;
+  width: 3200px;
+  margin-left: -25px;
+}
+#player {
+  height: 426px;
+  margin-left: 5345px;
+  margin-top: 107px;
+  position: absolute;
+  width: 200px;
+}
+#play.fr,
+#pause.fr {
+  margin-top: 40px;
+  cursor: pointer;
+}
+#play {
+  margin-left: -15px;
+}
+#play.sc,
+#pause.sc {
+  margin-top: 120px;
+  cursor: pointer;
+}
+#pause {
+  margin-left: -15px;
+  display: none;
+}
+#play.th,
+#pause.th {
+  margin-top: 200px;
+  cursor: pointer;
+}
+#play.fth,
+#pause.fth {
+  margin-top: 280px;
+  cursor: pointer;
+}
+#play.ff,
+#pause.ff {
+  margin-top: 360px;
+  cursor: pointer;
+}
+#pause {
+  margin-left: -15px;
+  margin-top: 245px;
+  cursor: pointer;
+}
+#controls {
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  left: 143px;
+  width: 900px;
+  height: 171px;
+}
+#controls a {
+  position: absolute;
+}
+#controls .tostart {
+  height: 49px;
+  margin-left: 38px;
+  margin-top: 90px;
+  width: 68px;
+}
+#controls .tomusic {
+  height: 49px;
+  margin-left: 120px;
+  margin-top: 90px;
+  width: 68px;
+}
+#controls .toworks {
+  height: 49px;
+  margin-left: 190px;
+  margin-top: 90px;
+  width: 68px;
+}
+#controls .tofinish {
+  height: 49px;
+  margin-left: 270px;
+  margin-top: 90px;
+  width: 68px;
+}
+#controls.fixtop {
+  top: 606px;
+}
+#preloader {
+  background: url('loading.gif') center center no-repeat #0b000c;
+  z-index: 10000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
