@@ -1,16 +1,4 @@
 $(document).ready(function () {
-  var fixControls = function () {
-    var top = ($(window).height() - 777) / 2;
-    if ($(window).height() > 777) {
-      $('#controls').css('top', 606 + top);
-    } else {
-      $('#controls').css('top', 'auto');
-    }
-  };
-  fixControls();
-  $(window).resize(function () {
-    fixControls();
-  });
   var init = function () {
     var sLeft = $(this).scrollLeft();
     //alert(sMax + " " + (sMax - $("img.first").width()) + " " + firstdiff + " " + ((sLeft)/sMax) + " " + sLeft + " " + $(window).width());

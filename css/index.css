@@ -1,6 +1,7 @@
 .first,
 .second,
 .third {
+  position: absolute;
   height: 100%;
   margin-left: 0;
   -webkit-transform: translateZ(0);
@@ -11,13 +12,11 @@ body {
   padding: 0px;
   background: #14001c;
 }
-img {
-  position: absolute;
-}
 #wrapper {
   display: block;
 }
 .mainLogo {
+  position: absolute;
   z-index: 10;
   left: 286px;
   top: 40%;
@@ -113,42 +112,18 @@ img {
 }
 #controls {
   position: fixed;
+  display: flex;
+  gap: 30px;
   bottom: 0;
   z-index: 100;
-  left: 143px;
-  width: 900px;
-  height: 171px;
+  left: 254px;
+  bottom: 68px;
 }
 #controls a {
-  position: absolute;
+  width: 100%;
+  height: 100%;
 }
-#controls .tostart {
-  height: 49px;
-  margin-left: 38px;
-  margin-top: 90px;
-  width: 68px;
-}
-#controls .tomusic {
-  height: 49px;
-  margin-left: 120px;
-  margin-top: 90px;
-  width: 68px;
-}
-#controls .toworks {
-  height: 49px;
-  margin-left: 190px;
-  margin-top: 90px;
-  width: 68px;
-}
-#controls .tofinish {
-  height: 49px;
-  margin-left: 270px;
-  margin-top: 90px;
-  width: 68px;
-}
-#controls.fixtop {
-  top: 606px;
-}
+
 #preloader {
   background: url('loading.gif') center center no-repeat #0b000c;
   z-index: 10000;
