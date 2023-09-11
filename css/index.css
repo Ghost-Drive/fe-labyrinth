@@ -16,8 +16,9 @@ body {
 .portal-anchors span {
   position: absolute;
   top: 50%;
-  width: 100px;
-  height: 100px;
+  //Colors and sizes for position testing
+  /* width: 100px; */
+  /* height: 100px; */
 }
 .portal-anchors span:nth-child(1) {
   left: 245vh;
