@@ -12,41 +12,58 @@ body {
   margin: 0px;
   padding: 0px;
   background: #14001c;
+  font-family: 'Red Hat Display';
+  color: white;
+  user-select: none;
 }
 .portal-anchors span {
   position: absolute;
-  top: 50%;
-  //Colors and sizes for position testing
-  /* width: 100px; */
-  /* height: 100px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  font-size: 24px;
+  top: 50px;
+  /* //Colors and sizes for position testing */
+  /* width: 100px;
+  height: 100px; */
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+a:hover {
+  color: rgb(240, 232, 191);
 }
 .portal-anchors span:nth-child(1) {
-  left: 245vh;
-  background-color: rgb(13, 0, 255);
+  left: 234vh;
+  /* background-color: rgb(13, 0, 255); */
 }
 .portal-anchors span:nth-child(2) {
   left: 425vh;
-  background-color: rgb(0, 255, 21);
+  /* background-color: rgb(0, 255, 21); */
 }
 .portal-anchors span:nth-child(3) {
   left: 615vh;
-  background-color: rgb(255, 0, 0);
+  /* background-color: rgb(255, 0, 0); */
 }
 .portal-anchors span:nth-child(4) {
   left: 805vh;
-  background-color: rgb(4, 221, 228);
+  /* background-color: rgb(4, 221, 228); */
 }
 .portal-anchors span:nth-child(5) {
   left: 995vh;
-  background-color: rgb(187, 13, 210);
+  /* background-color: rgb(187, 13, 210); */
 }
 .portal-anchors span:nth-child(6) {
   left: 1185vh;
-  background-color: rgb(11, 144, 88);
+  /* background-color: rgb(11, 144, 88); */
 }
 .portal-anchors span:nth-child(7) {
   left: 1365vh;
-  background-color: rgb(236, 117, 6);
+  /* background-color: rgb(236, 117, 6); */
 }
 #wrapper {
   display: block;
